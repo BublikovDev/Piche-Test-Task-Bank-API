@@ -6,7 +6,9 @@ Server/appsettings.json
 
 ### 3. Apply Migrations
 cd Server
+
 dotnet ef migrations add InitialMigration
+
 dotnet ef database update
 
 ### 4. Run application
